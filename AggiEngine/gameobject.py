@@ -14,9 +14,17 @@ class GameObject:
         self.width = 1
 
     def getWidth(self):
+        """
+        Returns the width of the GameObject
+        :return: Returns a float of the width of the game object
+        """
         return self.width * 2
 
     def getHeight(self):
+        """
+        Returns the height
+        :return: float height of the game object
+        """
         return self.height * 2
 
     def setWidth(self, width):
